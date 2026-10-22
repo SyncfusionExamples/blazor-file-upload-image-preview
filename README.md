@@ -4,14 +4,21 @@ This sample explains how to show image preview before upload the images using Sy
 
 ## Prerequisites
 
-* Visual Studio 2022
+* Visual Studio 2022 or Visual Studio Code
+* .NET SDK compatible with the project's target framework
 
 ## How to run the project
 
-* Checkout this project to a location in your disk.
-* Open the solution file using the Visual Studio 2022.
-* Restore the NuGet packages by rebuilding the solution.
-* Run the project.
+1. Clone or download the repository.
+2. Restore all NuGet packages.
+3. Build and run the application using `Ctrl+F5`, or:
+
+```bash
+dotnet restore
+dotnet run
+```
+
+4. Open the local URL displayed in the terminal after the application starts.
 
 ## Overview
 
